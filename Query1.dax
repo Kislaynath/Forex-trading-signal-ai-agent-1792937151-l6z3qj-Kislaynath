@@ -1,0 +1,39 @@
+﻿EVALUATE
+ROW(
+    "Market Value", [Total Market Value],
+    "Duration", [Portfolio Modified Duration],
+    "Convexity", [Portfolio Convexity],
+    "DV01", [Portfolio DV01]
+)
+
+EVALUATE
+ROW(
+    "Portfolio Duration",
+        [Portfolio Modified Duration],
+    "Portfolio Convexity",
+        [Portfolio Convexity],
+    "Portfolio DV01",
+        [Portfolio DV01],
+    "Duration Contribution",
+        [Duration Contribution],
+    "Convexity Contribution",
+        [Convexity Contribution]
+)
+
+EVALUATE
+ROW(
+    "VaR 95", [VaR 95],
+    "VaR 99", [VaR 99],
+    "CVaR 95", [CVaR 95],
+    "CVaR 99", [CVaR 99],
+    "Maximum Loss", [Maximum Loss],
+    "Maximum Gain", [Maximum Gain]
+)
+
+EVALUATE
+ROW(
+    "Selected Shock", [Selected Yield Shock (bps)],
+    "Scenario PnL", [Scenario PnL],
+    "Duration Effect", [Scenario Duration Effect],
+    "Convexity Effect", [Scenario Convexity Effect]
+)
